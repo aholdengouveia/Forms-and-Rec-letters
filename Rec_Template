@@ -1,0 +1,33 @@
+\documentclass{letter}
+\usepackage[top=0.5cm, bottom=0.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+\usepackage{lipsum}
+
+\address{\\ \\ \\ \large \textbf{Prof. Holden-Gouveia} \\ \textbf{Northern Essex Community College}} \\ 
+
+
+\begin{document}
+\begin{letter}
+{
+\centering \Large \textbf{Letter of Recommendation}
+}
+
+\hfill
+\begin{wrapfigure}[1]{l}{0.25\linewidth}%{height=0.65\textheight}
+    \centering
+    \includegraphics[width=0.25\textwidth]{NECC_logo.jpg}
+\end{wrapfigure}
+
+\opening{To Whom it May Concern:} % admissions officer
+\medskip 
+
+\lipsum[1-5]
+\medskip
+Sincerely, \\
+Adrianna Holden-Gouveia \\
+
+\end{letter}
+\end{document}
